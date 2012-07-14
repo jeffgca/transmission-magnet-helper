@@ -1,5 +1,5 @@
 {
-    "name": "transmission_url", 
+    "name": "transmission-web-helper", 
     "license": "MPL 2.0", 
     "author": "Jeff Griffiths",
     "version": "0.1", 
@@ -7,8 +7,9 @@
     "id": "transmission-web-helper@canuckistani.ca", 
     "description": "a basic add-on", 
     "preferences": [{
-    	"name": "transmission-rpc-url",
+    	"name": "transmission_url",
     	"title": "URL for Transmission RPC",
-    	"type": "string"
+    	"type": "string",
+    	"value": "http://10.0.0.99:9091/transmission/rpc"
     }]
 }
