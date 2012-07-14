@@ -11,5 +11,11 @@
     	"title": "URL for Transmission RPC",
     	"type": "string",
     	"value": "http://10.0.0.99:9091/transmission/rpc"
+    },
+    {
+    	"name": "transmission_autostart",
+    	"title": "Autostart torrents?",
+    	"type": "bool",
+    	"value": "false"
     }]
 }
