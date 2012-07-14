@@ -4,6 +4,11 @@
     "author": "", 
     "version": "0.1", 
     "fullName": "transmission-web-helper", 
-    "id": "jid1-WWEcSB7Lwtf0Sg", 
-    "description": "a basic add-on"
+    "id": "transmission-web-helper@canuckistani.ca", 
+    "description": "a basic add-on", 
+    "preferences": [{
+    	"name": "transmission-rpc-url",
+    	"title": "URL for Transmission RPC",
+    	"type": "string"
+    }]
 }
