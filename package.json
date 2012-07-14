@@ -1,7 +1,7 @@
 {
-    "name": "transmission-web-helper", 
+    "name": "transmission_url", 
     "license": "MPL 2.0", 
-    "author": "", 
+    "author": "Jeff Griffiths",
     "version": "0.1", 
     "fullName": "transmission-web-helper", 
     "id": "transmission-web-helper@canuckistani.ca", 
