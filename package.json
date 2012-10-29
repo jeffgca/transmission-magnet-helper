@@ -7,15 +7,24 @@
     "id": "transmission-web-helper@canuckistani.ca", 
     "description": "a basic add-on", 
     "preferences": [{
-    	"name": "transmission_url",
+    	"name": "transmissionUrl",
     	"title": "URL for Transmission RPC",
     	"type": "string",
     	"value": "http://localhost:9091/transmission/rpc"
     },
     {
-    	"name": "transmission_autostart",
-    	"title": "Autostart torrents?",
-    	"type": "bool",
-    	"value": "false"
-    }]
+        "description": "If selected, torrents will start automatically.",
+        "type": "bool",
+        "name": "transmissionAutostart",
+        "value": true,
+        "title": "Auto-start?"
+    },
+    {
+        "description": "If selected, this add-on will print debug .",
+        "type": "bool",
+        "name": "transmissionDebug",
+        "value": false,
+        "title": "Debug"
+    }
+    ]
 }
