@@ -6,6 +6,8 @@
     "fullName": "transmission-web-helper", 
     "id": "transmission-web-helper@canuckistani.ca", 
     "description": "a basic add-on", 
+    "icon": "data/icon48.png",
+    "icon64": "data/icon64.png",
     "preferences": [{
     	"name": "transmissionUrl",
     	"title": "URL for Transmission RPC",
