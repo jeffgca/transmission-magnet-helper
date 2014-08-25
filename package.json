@@ -8,6 +8,7 @@
     "description": "a basic add-on", 
     "icon": "data/icon48.png",
     "icon64": "data/icon64.png",
+    "main": "lib/main",
     "preferences": [{
     	"name": "transmissionUrl",
     	"title": "URL for Transmission RPC",
