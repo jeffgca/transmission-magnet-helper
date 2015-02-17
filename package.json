@@ -1,33 +1,35 @@
 {
-    "name": "transmission-web-helper", 
-    "license": "MPL 2.0", 
-    "author": "Jeff Griffiths",
-    "version": "0.0.5", 
-    "fullName": "transmission-web-helper", 
-    "id": "transmission-web-helper@canuckistani.ca", 
-    "description": "a basic add-on", 
-    "icon": "data/icon48.png",
-    "icon64": "data/icon64.png",
-    "main": "lib/main",
-    "preferences": [{
-    	"name": "transmissionUrl",
-    	"title": "URL for Transmission RPC",
-    	"type": "string",
-    	"value": "http://localhost:9091/transmission/rpc"
+  "name": "transmission-web-helper",
+  "license": "MPL 2.0",
+  "author": "Jeff Griffiths",
+  "version": "0.0.5",
+  "fullName": "transmission-web-helper",
+  "id": "transmission-web-helper@canuckistani.ca",
+  "description": "a basic add-on",
+  "main": "lib/main",
+  "preferences": [
+    {
+      "name": "transmissionUrl",
+      "title": "URL for Transmission RPC",
+      "type": "string",
+      "value": "http://localhost:9091/transmission/rpc"
     },
     {
-        "description": "If selected, torrents will start automatically.",
-        "type": "bool",
-        "name": "transmissionAutostart",
-        "value": true,
-        "title": "Auto-start?"
+      "description": "If selected, torrents will start automatically.",
+      "type": "bool",
+      "name": "transmissionAutostart",
+      "value": true,
+      "title": "Auto-start?"
     },
     {
-        "description": "If selected, this add-on will print debug .",
-        "type": "bool",
-        "name": "transmissionDebug",
-        "value": false,
-        "title": "Debug"
+      "description": "If selected, this add-on will print debug .",
+      "type": "bool",
+      "name": "transmissionDebug",
+      "value": false,
+      "title": "Debug"
     }
-    ]
+  ],
+  "devDependencies": {
+    "jpm": "0.0.25"
+  }
 }

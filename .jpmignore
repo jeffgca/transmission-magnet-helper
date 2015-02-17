@@ -1,0 +1,6 @@
+unpack
+node_modules
+.git
+.gitignore
+*.xpi
+.DS_Store
