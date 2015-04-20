@@ -2,10 +2,10 @@
   "name": "transmission-web-helper",
   "license": "MPL 2.0",
   "author": "Jeff Griffiths",
-  "version": "0.0.5",
-  "fullName": "transmission-web-helper",
+  "version": "0.0.7",
+  "title": "Transmission Web Helper",
   "id": "transmission-web-helper@canuckistani.ca",
-  "description": "a basic add-on",
+  "description": "Send magnet and torrent urls directly to an install of Transmission.",
   "main": "lib/main",
   "preferences": [
     {
@@ -22,14 +22,11 @@
       "title": "Auto-start?"
     },
     {
-      "description": "If selected, this add-on will print debug .",
+      "description": "If selected, this add-on will print debug info.",
       "type": "bool",
       "name": "transmissionDebug",
       "value": false,
       "title": "Debug"
     }
-  ],
-  "devDependencies": {
-    "jpm": "0.0.25"
-  }
+  ]
 }
