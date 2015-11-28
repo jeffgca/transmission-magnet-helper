@@ -6,7 +6,6 @@
   "title": "Transmission Web Helper",
   "id": "transmission-web-helper@canuckistani.ca",
   "description": "Send magnet and torrent urls directly to an install of Transmission.",
-  "main": "lib/main",
   "preferences": [
     {
       "name": "transmissionUrl",
